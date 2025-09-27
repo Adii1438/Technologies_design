@@ -1,0 +1,109 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-cont {
+            width: 100%;
+            height: 100vh;
+            padding: 20px;
+            background-color: rgb(125, 64, 187);
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        .techno {
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+
+        }
+
+        .techno h2 {
+            padding: 10px;
+            color: aqua;
+       
+        }
+
+        .techno p {
+            color: white;
+        }
+
+        .tech-tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .tech-tag {
+            padding: 10px;
+            margin: 5px;
+            text-decoration: none;
+            color: rgb(76, 20, 205);
+            border: 1px solid rgb(2, 4, 97);
+            border-radius: 10px;
+        }
+        .tech-tag:hover{
+            background-color: rgb(95, 54, 160);
+            color: white;
+        }
+
+        /* For Laptops (min-width: 768px and up) */
+        @media (min-width: 768px) {
+            .main-cont {
+                flex-direction: row;        
+                padding: 40px;          
+           }
+
+            .techno {
+                width: 600px;
+                /* increase content width */
+            }
+
+            .techno h2 {
+                font-size: 22px;
+            }
+
+            .techno p {
+                font-size: 16px;
+            }
+
+            .tech-tag {
+                font-size: 14px;
+                padding: 12px 18px;
+            }
+        }
+
+        /* For Desktops (min-width: 1200px and up) */
+        @media (min-width: 1200px) {
+            .main-cont {
+                flex-direction: row;
+                padding: 60px;  
+            }
+
+            .techno {
+                width: 1000px;
+              
+            }
+
+            .techno h2 {
+                font-size: 26px;
+            }
+
+            .techno p {
+                font-size: 18px;
+            }
+
+            .tech-tag {
+                font-size: 15px;
+                padding: 14px 20px;
+            }
+        }
+
+
