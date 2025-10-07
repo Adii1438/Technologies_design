@@ -54,56 +54,6 @@
             color: white;
         }
 
-        /* For Laptops (min-width: 768px and up) */
-        @media (min-width: 768px) {
-            .main-cont {
-                flex-direction: row;        
-                padding: 40px;          
-           }
 
-            .techno {
-                width: 600px;
-                /* increase content width */
-            }
-
-            .techno h2 {
-                font-size: 22px;
-            }
-
-            .techno p {
-                font-size: 16px;
-            }
-
-            .tech-tag {
-                font-size: 14px;
-                padding: 12px 18px;
-            }
-        }
-
-        /* For Desktops (min-width: 1200px and up) */
-        @media (min-width: 1200px) {
-            .main-cont {
-                flex-direction: row;
-                padding: 60px;  
-            }
-
-            .techno {
-                width: 1000px;
-              
-            }
-
-            .techno h2 {
-                font-size: 26px;
-            }
-
-            .techno p {
-                font-size: 18px;
-            }
-
-            .tech-tag {
-                font-size: 15px;
-                padding: 14px 20px;
-            }
-        }
 
 
